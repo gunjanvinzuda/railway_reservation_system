@@ -1,0 +1,99 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1434871619871-1f315a50efba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;	
+}
+
+input[type=text] {
+    margin-top: 0;
+    width: 156px;
+    border: none;
+    height: 45px;
+    padding-left: 10px;
+    background-image: linear-gradient(180deg, #f5f7fa 0%, #b3b4b67e 100%);
+}
+
+input[type=text].head {
+    margin: none;
+    height: 40px;
+    padding-left: 10px;
+    background-image: linear-gradient(135deg, #f5f7fa 100%, #a7aeb99d 0%);
+}
+
+button.cancel{
+    margin: 0;
+	padding: 0;
+    border: none;
+    color: #252626;
+	background-image: linear-gradient(180deg, #f5f7fa 0%, #b3b4b657 100%);
+    font-style: bold;
+    padding: 5px;
+    width: 122px;
+    height: 45px;
+}
+
+button:hover{
+ 	/* text-shadow: 3px 1px #251e8a34; */
+ 	font-weight: 400px;
+ 	transition: none;
+ 	color:#010713;
+	background-image: linear-gradient(180deg, #f5f7fa 0%, #b3b4b6bb 100%);
+ 	/* color:black; */
+ }
+
+
+button:focus{
+  outline:none;
+  border:1.5px solid rgba(81, 203, 238, 1);
+  border-radius: 15px;
+}
+
+.block{
+	margin-top: 100px;
+	margin-left: 185px;
+	background-color: #40d3d386;
+	display: inline-block;
+	padding: 50px;
+}
+
+nav{
+	color:red;
+}
+
+.heading {
+    padding-top: 0.1px;
+    height: 80px;
+    padding-left: 10px;
+	/* text-transform: uppercase; */
+    color: antiquewhite;
+	/* font-weight: 300; */
+}
+
+input.classType{
+	width: 60px;
+}
+
+input.pnr{
+	width: 107px;
+}
+
+input.trainNo{
+	width: 76px;
+}
+
+input.doj{
+	width: 112px;
+}
+
+input.cancel{
+	width: 122px;
+}
+
+input.fare{
+	width: 95px;
+}
